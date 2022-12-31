@@ -1,0 +1,82 @@
+/* ROOT */
+
+.root {
+  --background-color: #ffffff;
+  --main-color: #333333;
+  --main-border-color: #111111;
+  --font-color: #ffffff;
+  --secondary-color: #a8925b;
+  --secondary-border-color: #86764C;
+  --button-color: #d7092b;
+  --second-button-color: #d7092b63;
+  --font-style: 'Varela Round', sans-serif;
+  --overlay: #ffffff88;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Varela Round',-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+#image_1 {
+  background-image: url('../public/images/about.jpg');
+  background-size: cover;
+}
+
+#image_2 {
+  background-image: url('../public/images/gym.jpg');
+  background-size: cover;
+}
+
+#image_3 {
+  background-image: url('../public/images/online-coaching.jpg');
+  background-size: cover;
+}
+
+#image_1:hover, #image_2:hover, #image_3:hover {
+  background-image: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  #image_1, #image_2, #image_3 {
+    background-position: center;
+  }
+}
