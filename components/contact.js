@@ -22,7 +22,7 @@ export default function Contact() {
                 <input type="tel" placeholder="Phone Number" name="phone" id="phone" pattern="[0-9]{11}"></input>
             </div>
             <div className={styles.input_container}>
-                <label for="message" className={styles.hidden} className={styles.textarea_label}>Message: </label>
+                <label for="message" className={styles.textarea_label}>Message: </label>
                 <textarea name="message" placeholder="Message" required></textarea>
             </div>
             <input type='submit' className={styles.submit}></input>
