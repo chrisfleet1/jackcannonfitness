@@ -51,12 +51,12 @@ export default function Services() {
             <figcaption className={styles.services_text_container}>
               <h3>Online Coaching</h3>
               <p>Our online coaching is great for anybody who cannot commit to certain training times & feels comfortable training on their own. With our guidance & support along the way via email, FaceTime & our online platform.</p>
-              <h4>What's included:</h4>
+              <h4>What is included:</h4>
               <ul >
                 <li>A program specifically designed for you & what works around your lifestyle.</li>
                 <li>Weekly check ins</li>
                 <li>Online app where you have access to a variety of tools to help you such as our cookbooks.</li>
-                <li>Fully trackable workouts so you know what you're doing when you head into the gym.</li>
+                <li>Fully trackable workouts so you know what you&apos;re doing when you head into the gym.</li>
                 <li>Exercise demonstration videos</li>
             </ul>
             </figcaption>
