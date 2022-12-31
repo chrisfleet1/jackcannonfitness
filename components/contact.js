@@ -23,10 +23,10 @@ export default function Contact() {
             </div>
             <div className={styles.input_container}>
                 <label for="message" className={styles.hidden} className={styles.textarea_label}>Message: </label>
-                <textarea type="text" name="message" placeholder="Message" required></textarea>
+                <textarea name="message" placeholder="Message" required></textarea>
             </div>
             <input type='submit' className={styles.submit}></input>
         </form>
       </section>
-  )
+  );
 }
