@@ -18,7 +18,7 @@ export default function About() {
             </div>
             <div className={styles.about_section_container}>
             <div className={styles.about_image_container}>
-                <Image src={about_image} className={styles.about_image} />
+                <Image src={about_image} className={styles.about_image} alt="Image of the founder, Jack Cannon infront of a Jack Cannon Fitness banner"/>
             </div>
             <div className={styles.text_container}>
             <article className={styles.sections_text}>

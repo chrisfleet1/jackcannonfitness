@@ -66,10 +66,10 @@ export default function Home() {
               <h2>The Gym</h2>
           </div>
           <div className={styles.gallery_containers}>
-              <Image src={gymOne} className={styles.gym_image}></Image>
-              <Image src={gymTwo} className={styles.gym_image}></Image>
-              <Image src={gymThree} className={styles.gym_image}></Image>
-              <Image src={gymFour} className={styles.gym_image}></Image>
+              <Image src={gymOne} className={styles.gym_image} alt="Outside of green gym container, side on"></Image>
+              <Image src={gymTwo} className={styles.gym_image} alt="Outside of green gym container, facing gym"></Image>
+              <Image src={gymThree} className={styles.gym_image} alt="Inside of gym"></Image>
+              <Image src={gymFour} className={styles.gym_image} alt="Weights inside of the gym"></Image>
           </div>
         </section>
         <Contact />
@@ -77,6 +77,3 @@ export default function Home() {
     </div>
   )
 }
-
-
-// TODO - WORK OUT HOW TO RENDER THE REVIEW AND AUTHOR EACH TIME IT CHANGES

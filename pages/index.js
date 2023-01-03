@@ -27,7 +27,7 @@ export default function Landing() {
 
       <main>
         <div className={styles.backgroundContainer}>
-          <video className={styles.video} src="/videos/video3.mp4" autoPlay width={"100%"} loop muted playsinline></video>
+          <video className={styles.video} src="/videos/video3.mp4" autoPlay  loop muted playsinline></video>
 
           <div className={styles.overlay}>
             <div className={styles.entryContainer}>

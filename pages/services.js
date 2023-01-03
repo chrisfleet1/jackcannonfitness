@@ -19,7 +19,8 @@ export default function Services() {
         <div>
           <div className={styles.services_container}>
           <div className={styles.image_container}>
-                <Image src={Pricing} className={styles.services_image}/>
+                <Image src={Pricing} className={styles.services_image} 
+                  alt="Pricing chart for Jack Cannon Fitness. Yearly premium plan at £1,349.92, Advanced Package at £300, Start Package at £165, and an Individual Personal Training Session at £35 per session"/>
               </div>
 
               <div className={styles.services_text_container}>
@@ -61,7 +62,7 @@ export default function Services() {
             </ul>
             </figcaption>
               <div className={styles.image_container}>
-                  <Image src={Online} className={styles.services_image}/>
+                  <Image src={Online} className={styles.services_image} alt="Lady in press up position whilst on a video session"/>
               </div>
           </div>
         </section>

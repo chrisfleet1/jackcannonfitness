@@ -32,7 +32,7 @@ export default function Header() {
         </div>
           
           <div className={styles.header_logo_container}>
-            <Image className={styles.header_logo} src={logo}/>
+            <Image className={styles.header_logo} src={logo} alt="Jack Cannon Fitness Logo"/>
           </div>
 
           
