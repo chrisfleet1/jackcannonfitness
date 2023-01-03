@@ -836,7 +836,8 @@
 @media (max-width: 1200px) {
   .cover_image_container {
     width: 100%;
-    height: 15rem;
+    height: 10rem;
+    background-position: 10% 10%;
   }
   
   .cover_overlay {
