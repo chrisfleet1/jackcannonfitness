@@ -47,6 +47,10 @@
   background-color: rgba(255, 255, 255, 0.85);
 }
 
+.button .link {
+  padding: 1rem 7rem;
+}
+
 .button:hover {
   text-decoration: underline;
   background-color: #dc4225;
@@ -70,7 +74,7 @@
 }
 
 .link:hover {
-  color: white
+  color: white;
 }
 
 /* --- HOME PAGE --- */
@@ -514,6 +518,10 @@
     width: 75%;
   }
 
+  .button .link {
+    padding: 1rem 3rem;
+  }
+
   /* --- HOME PAGE --- */
 
   /* Sections */
@@ -606,7 +614,7 @@
   }
 
   .about_image {
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 0;
   }
