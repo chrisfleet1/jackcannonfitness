@@ -518,6 +518,7 @@
 
   .button {
     width: 75%;
+    font-size: 28px;
   }
 
   .button .link {
