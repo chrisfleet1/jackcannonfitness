@@ -7,7 +7,7 @@ export default function Contact() {
         <div className={styles.sections_header}>
             <h2 >Contact Us</h2>
         </div>
-        <form className={styles.form_container} data-netlify="true" method='POST' name="contact" data-netlify-recaptcha="true" data-netlify-honeypot="bot-field" action="home">
+        <form className={styles.form_container} data-netlify="true" method='POST' name="contact" data-netlify-recaptcha="true" data-netlify-honeypot="bot-field" action="https://getform.io/f/c46844b3-3ea8-4f4d-aab5-569a06020683">
         <p>Book your free consultation here, e-mail us at <Link href="mailto: jack@jackcannonfitness.co.uk" className={styles.link}>jack@jackcannonfitness.co.uk</Link>!</p>
             <div className={styles.input_container}>
                 <label for="name" className={styles.hidden}>Contact Name: </label>
