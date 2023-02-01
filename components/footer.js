@@ -20,7 +20,7 @@ export default function Footer() {
 
           <div className={styles.contact_container}>
             <div className={styles.contact}>
-              <FaPhoneAlt className={styles.contactIcon}/>[Enter Phone Number]
+              <FaPhoneAlt className={styles.contactIcon}/>07807 348294
             </div>
             <div className={styles.contact}>
               <AiOutlineMail className={styles.contactIcon}/>jack@jackcannonfitness.co.uk
