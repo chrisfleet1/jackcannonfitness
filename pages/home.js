@@ -16,6 +16,8 @@ import gymTwo from '../public/images/2.png'
 import gymThree from '../public/images/3.png'
 import gymFour from '../public/images/4.png'
 
+const date = new Date().getFullYear()
+
 export default function Home() {
   
   return (
@@ -26,7 +28,7 @@ export default function Home() {
       <div className={styles.cover_image_container}>
         <div className={styles.cover_overlay}>
           <div className={styles.cover_strapline}>
-            <h1>Want to make 2023 a year to remember?</h1>
+            <h1>Want to make {date} a year to remember?</h1>  
             <h2>Join us at Jack Cannon Fitness!</h2>
           </div>
         </div>
